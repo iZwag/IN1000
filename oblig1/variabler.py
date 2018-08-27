@@ -6,8 +6,9 @@ variable_2 = 4
 sum = variable_1 + variable_2
 
 # Printer variablene på hver sin linje, og summen til slutt.
-# F-strings krever Python 3.6
-print(f"{variable_1}\n{variable_2}\nSum: {sum}")
+print(variable_1)
+print(variable_2)
+print("Sum: " + str(sum))
 
 # To tekstvariabler
 variable_3 = "Marco"
@@ -17,10 +18,12 @@ variable_4 = "Polo"
 sammen = variable_3 + variable_4
 
 # Printer tekstvariablene på hver sin linje, inkludert sammen
-print(f"{variable_3}\n{variable_4}\nSammen: {sammen}")
+print(variable_3)
+print(variable_4)
+print("Sammen: " + sammen)
 
 # Lager en ny sammen-tekst med mellomrom mellom
 sammen = variable_3 + " " + variable_4
 
 # Printer den nye sammen-teksten
-print(f"Sammen: {sammen}")
+print("Sammen: " + sammen)
