@@ -45,4 +45,3 @@ print("Det er %d ord i setningen din." % len(sentence.split()))
 for i in catalogue:
     print("Ordet \'%s\' \tforekommer %d gang(er), og har %d bokstav(er)." % (i, catalogue[i], count_letters(i)))
 
-print(catalogue)

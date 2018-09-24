@@ -1,6 +1,6 @@
 # Oppg 4.1
 # Make an empty list called called "steder"
-elements = 2
+elements = 5
 
 steder = []
 
@@ -35,10 +35,9 @@ if i1 <= len(reiseplan) and i1 > 0:
     
     # Prompts the user for input 2
     i2 = int(input("Please enter which item you want view (integer 1-%d): " % elements))
-    
     # Checks if input 2 is within limits
     # If it is, the print that element
-    if i2 <= len(reiseplan[i1]) and i2 > 0:
+    if i2 <= len(reiseplan[i1-1]) and i2 > 0:
         print("You wanted to know: %s" % reiseplan[i1-1][i2-1])
     else:
         print("Ugyldig input!")
