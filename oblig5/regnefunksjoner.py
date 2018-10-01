@@ -16,11 +16,13 @@ def divisjon(number1, number2):
     return number1/number2
 
 # 1.3
+# Converts inches to centimeter and tests for an input <= 0
 def tommerTilCm(antallTommer):
     assert(antallTommer > 0), "Inches must be greater than 0"
     return antallTommer * 2.54
 
 # 1.4
+# User input is run through the above functions and tested
 def skrivBeregninger():
     
     print("Utregninger:")
@@ -55,7 +57,9 @@ assert(divisjon(-2,2) == -1),"Division didn't work!"
 assert(divisjon(-8,4) == -2),"Division didn't work!"
 
 # 1.3
+# Tests the inches to cm function
 assert(tommerTilCm(3) > 0),"Converting from inches didn't work!"
 
 # 1.4
+# Runs the user test without arguments
 skrivBeregninger()
